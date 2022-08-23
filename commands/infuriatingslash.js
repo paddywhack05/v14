@@ -53,7 +53,7 @@ async execute(interaction,client){
         //const collector = message.channel.createMessageComponentCollector()
         const collector = msg.createMessageComponentCollector()
         collector.on("collect", async (btn) => {
-                 //interaction one by paddycrack       
+                 //interaction thing by paddycrack
 	if(btn.user.id === interaction.user.id){
         console.log(btn);
         await btn.deferUpdate()
