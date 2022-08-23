@@ -39,8 +39,8 @@ execute(interaction,client){
      )
            .addComponents(
             new ButtonBuilder()
-            .setLabel(`r/catpics`)
-            .setURL(`https://www.reddit.com/r/dankmeme/`)
+            .setLabel(`r/meme`)
+            .setURL(`https://www.reddit.com/r/memes/`)
             .setStyle(ButtonStyle.Link),
         )
         const msg = await interaction.editReply({ embeds: [embed],components: [row] })
